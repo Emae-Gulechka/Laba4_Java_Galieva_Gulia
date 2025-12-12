@@ -141,5 +141,5 @@
    - Принимает: List<T> list, CollectionFactory<P> factory, Collector<T, P> collector
    - Создает коллекцию: P result = factory.create()
    - Для каждого элемента в list:
-     * collector.collect(result, element)
+      collector.collect(result, element)
    - Возвращает result
